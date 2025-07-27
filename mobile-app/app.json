@@ -1,0 +1,53 @@
+{
+	"expo": {
+		"name": "LT",
+		"slug": "LT",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.example.lt", 
+			"associatedDomains": ["applinks:example.com"] 
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.example.lt",
+			"intentFilters": [
+				{
+					"action": "VIEW",
+					"data": [
+						{
+							"scheme": "https",
+							"host": "example.com",
+							"pathPrefix": "/open" 
+						}
+					],
+					"category": ["BROWSABLE", "DEFAULT"]
+				}
+			]
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"plugins": [
+			[
+				"expo-contacts",
+				{
+					"contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+				}
+			]
+		],
+		"scheme": "ltapp", 
+		"platforms": ["ios", "android", "web"]
+	}
+}
