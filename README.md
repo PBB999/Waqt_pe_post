@@ -160,5 +160,5 @@ npm run dev
 ---
 
 ## Contact Information
-- **Email:** badgujarmanish999@gmail.com
-- **WhatsApp:** 7066619942
+- **Email:** pratikbulkunde4@gmail.com
+- **WhatsApp:** 9699076606
